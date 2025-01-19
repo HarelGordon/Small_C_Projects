@@ -1,0 +1,59 @@
+Enter command please: You entered: read_set SETG,3,6,5,4,4,-1
+Enter valid set please
+Enter command please: You entered: print_set SETG
+Enter valid set please
+Enter command please: You entered: read_set setA,3,6,5,4,4,-1
+Enter valid set please
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: do_it SETA,SETB,SETC
+Undefined command name
+Enter command please: You entered: print_set SETC
+SETC after print_set: The set is empty.
+Enter command please: You entered: UNION_set SETA,SETB,SETC
+Undefined command name
+Enter command please: You entered: print_set SETC
+SETC after print_set: The set is empty.
+Enter command please: You entered: read_set SETA,45,567,34,-1
+Invalid set member – value out of range
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: read_set SETA,45,56,45,34
+You must end read_set with '-1'
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: read_set SETA,45,-3,2,45,34,-1
+read_set gets only integers after set, and they must be positive
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: read_set SETA,45,2,xyz,34,-1
+read_set gets only integers after set, and they must be positive
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: read_set SETA,45,2,24.0,34,-1
+read_set gets only integers after set, and they must be positive
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: union_set SETC,SETA,
+The command ends with ','
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: union_set SETC,SETA,SETB,
+The command ends with ','
+Enter command please: You entered: print_set SETB
+SETB after print_set: The set is empty.
+Enter command please: You entered: print_set SETC,SETD
+Extraneous text after end of command
+Enter command please: You entered: print_set SETC
+SETC after print_set: The set is empty.
+Enter command please: You entered: sub_set SETF, ,SETD,SETA
+You entered comma, blank characters, and comma again
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: intersect_set SETF SETD SETA
+Missing comma
+Enter command please: You entered: print_set SETA
+SETA after print_set: The set is empty.
+Enter command please: You entered: symdiff,SETF,SETB,SETA
+Between command and set, must be only spaces or tabs
+Enter command please: EOF without stop command.
